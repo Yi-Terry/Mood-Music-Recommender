@@ -1,0 +1,41 @@
+# =========================
+# Python / FastAPI backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.sqlite3
+*.db
+*.log
+*.egg-info/
+dist/
+build/
+*.pyc
+
+# VS Code
+.vscode/
+
+# =========================
+# Node / React frontend
+# =========================
+mood-music-frontend/node_modules/
+mood-music-frontend/build/
+mood-music-frontend/.pnp/
+mood-music-frontend/.pnp.js
+mood-music-frontend/coverage/
+mood-music-frontend/.env
+mood-music-frontend/.env.local
+mood-music-frontend/.env.development.local
+mood-music-frontend/.env.test.local
+mood-music-frontend/.env.production.local
+mood-music-frontend/npm-debug.log*
+mood-music-frontend/yarn-debug.log*
+mood-music-frontend/yarn-error.log*
+
+# =========================
+# OS / Misc
+# =========================
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+deepface
+tensorflow
+opencv-python
+numpy
+python-dotenv
+requests
