@@ -4,6 +4,7 @@ python-multipart
 aiofiles
 deepface
 tensorflow
+tf-keras
 opencv-python
 numpy
 python-dotenv
