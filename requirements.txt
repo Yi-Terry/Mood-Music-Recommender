@@ -9,3 +9,4 @@ opencv-python
 numpy
 python-dotenv
 requests
+spotipy

@@ -1,0 +1,18 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy frontend code
+COPY mood-music-frontend/ /app/
+
+# Install dependencies
+RUN npm install
+
+# Build frontend (optional if you want production build)
+RUN npm run build
+
+# Expose React port
+EXPOSE 3000
+
+# Start dev server
+CMD ["npm", "start"]
