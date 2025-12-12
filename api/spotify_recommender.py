@@ -1,8 +1,10 @@
 import spotipy
 import os
 import logging
+from dotenv import load_dotenv
 from spotipy.oauth2 import SpotifyOAuth
 
+load_dotenv()
 
 def get_spotify_client():
     try:
@@ -19,7 +21,7 @@ def get_spotify_client():
     except Exception as e:
         logging.error(f'Failed to create spotify client:{e}')
         raise
-
+# BRB
 MOOD_PROFILES = {
     "happy": {
         "seed_genres": ["pop", "dance", 'kpop'],

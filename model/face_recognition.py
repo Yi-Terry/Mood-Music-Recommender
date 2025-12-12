@@ -5,7 +5,7 @@ import logging
 from deepface import DeepFace
 
 # TODO: allow user to take a live photo through app
-
+# recommend new songs outside of your bubble
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' #suppresses tensorFlow logs
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
